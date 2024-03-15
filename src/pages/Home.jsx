@@ -23,19 +23,26 @@ const Home = () => {
 		fetchRooms();
 	}, []);
 	return (
-		<div>
+		<div className="min-h-screen flex flex-col">
 			<h1>Sonic Rooms - Home</h1>
-			{error && <h2>{error}</h2>}
-			{rooms && (
-				<div>
-					{rooms.map((room) => (
-						<div key={room.id}>
-							<h3 className="text-xl">{room.name}</h3>
-							<p>{room.description}</p>
-						</div>
-					))}
-				</div>
-			)}
+			<div className="grid place-content-center flex-grow">
+				{error && <h2>{error}</h2>}
+				{rooms && (
+					<div className="flex gap-10">
+						{rooms.map((room) => (
+							<div key={room.id}>
+								<h3 className="text-xl">{room.name}</h3>
+								<p>{room.description}</p>
+								<img className="rounded-sm" src="https://picsum.photos/200" alt="random photo" />
+								<p>
+									<span className="font-bold">£</span>
+									{room.price_per_hour}/hour
+								</p>
+							</div>
+						))}
+					</div>
+				)}
+			</div>
 		</div>
 	);
 };
