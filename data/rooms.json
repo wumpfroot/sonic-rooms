@@ -1,0 +1,38 @@
+[
+	{
+		"id": "1",
+		"name": "Small Room",
+		"description": "Small room for 1-4 people, for your basic practice needs",
+		"sqm": 15,
+		"backline": "Bass amp, Drums, Guitar amp, Wi-Fi, Sound System",
+		"price_per_hour": 8,
+		"image": "room_small02.webp"
+	},
+	{
+		"id": "2",
+		"name": "Medium Room",
+		"description": "Your basic space for 1-6 people, if you need a bit more space",
+		"sqm": 25,
+		"backline": "Bass amp, Drums, Guitar amps 2x, Wi-Fi, Sound System",
+		"price_per_hour": 12,
+		"image": "room_small01.webp"
+	},
+	{
+		"id": "3",
+		"name": "Big Room",
+		"description": "A spacious room with a great backline for bigger bands, or if you just want more",
+		"sqm": 50,
+		"backline": "Bass amp, Drums, Guitar amps 2x, Wi-Fi, Sound System, keyboard, extra mics",
+		"price_per_hour": 15,
+		"image": "room_medium01.webp"
+	},
+	{
+		"id": "4",
+		"name": "Recording Studio",
+		"description": "Our top-of-the-line studio for all your recording needs",
+		"sqm": 250,
+		"backline": "Contact for info",
+		"price_per_hour": 150,
+		"image": "studio01.webp"
+	}
+]

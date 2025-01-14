@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.room-image {
+	@apply w-80 h-auto rounded-sm;
+}
